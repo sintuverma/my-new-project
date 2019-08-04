@@ -1,0 +1,49 @@
+.column {
+  float: left;
+  width:100px;
+  padding: 5px;
+  margin-left:10px;
+}
+
+.#delete{
+  
+   float: left;
+  width: 50px;
+  padding: 5px;
+  margin-left: 80px;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.form-div{
+      margin-top: 100px;
+    }
+    .input-label{
+      background: #009688;
+      color: #fff;
+      padding: 30px;
+      transition: 0.3s;
+    }
+    .input-label:hover{
+      background:#26a69a ;
+      cursor:pointer;
+    }
+    .pictureicon{ 
+      margin-right:10px;
+
+
+    }
+    .glyphicon-picture{
+     font-size: 20px;
+    }
+    #file{
+      display: none;
+    }
+     #dvPreview {
+  display: block;
+}

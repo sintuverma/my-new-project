@@ -1,0 +1,20 @@
+ .modal-body{
+      background:#006666;
+        padding:10px; 
+         color: white;
+    }
+
+  .valid{
+        border: solid green;
+      }
+      .error{
+        border: solid red;
+      	color:white;
+      }
+      
+
+  .alert{
+  display: none;
+}
+
+
